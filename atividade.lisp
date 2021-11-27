@@ -9,8 +9,8 @@
 
 ;Questão 2 Qual o valor de cada expressão abaixo: 
 
-(print (car (cdr (car (cdr '( ( ( (a b) (c d) ) (e f)) (g h)))))))
-(print (cdr '(testando o lisp)))
+(print (car (cdr (car (cdr '( ( ( (a b) (c d) ) (e f)) (g h))))))) ;H
+(print (cdr '(testando o lisp))) ;o lisp
 
 ;Questão 3 Seja a lista ( (a b (10)) (15 30) 7 (6) ). 
 ;Utilizando as funções CAR e CDR, selecione o valor 10 da lista.
